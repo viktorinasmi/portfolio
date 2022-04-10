@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background: #191C2D;
+    color: white;
+}
+
+.menu{
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu-item{
+    padding: 32px 0px 32px 0;
+}
+
+.menu-item-link{
+    text-decoration: none;
+    color: #dbdbdb;
+}
+
+.menu-item-link:hover {
+    color: white;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.section-outer{
+    padding: 40px 0;
+}
+
+.section-inner{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.section-row{
+    display: flex;
+    align-items: center;
+}
+
+.section-column{
+    flex: 1;
+}
+
+section#main{
+    /*background: #92BA92;*/
+}
+
+.main-title{
+    margin-bottom: 16px;
+    font-size: 48px;
+}
+
+.main-description {
+    margin-bottom: 16px;
+    color: #dbdbdb;
+}
+
+
+.main-img {
+    width: 100%;
+}
+
+section#me {
+    /*background: #789382;*/
+    min-height: 100vh;
+}
+
+.me_header{
+
+}
+
+section#speciality {
+    /*background: #525e75;*/
+}
+
+section#price {
+    /*background: #f1ddbf;*/
+}
+
+section#form {
+    /*background: antiquewhite;*/
+}
+
+.form{
+    max-width: 480px;
+    background: #1C213E;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title{
+    color: white;
+    margin-bottom: 16px;
+}
+
+.button {
+    font-family: inherit;
+    font-weight: bold;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 24px;
+    border: 0;
+    background: linear-gradient(90deg, rgba(109,55,171,1) 0%, rgba(211,57,181,1) 100%);
+    cursor: pointer;
+    transition: color 1s ease, background-color 1s ease;
+}
+
+.button:hover{
+    color: #f1f1f1;
+    background: linear-gradient(90deg, rgb(67, 34, 105) 0%, rgb(133, 36, 114) 100%);
+}
+
+.text-form{
+    font-family: inherit;
+    color: white;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: solid 2px white;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+    display: block;
+    outline: 0;
+    resize: none;
+}
