@@ -78,12 +78,12 @@ section#main{
     width: 100%;
 }
 
-section#me {
+section#about {
     /*background: #789382;*/
     min-height: 100vh;
 }
 
-.me_header{
+.about-header{
 
 }
 
